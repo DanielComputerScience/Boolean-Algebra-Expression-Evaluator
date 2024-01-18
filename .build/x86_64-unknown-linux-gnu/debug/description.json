@@ -1,0 +1,153 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Simple-debug.module" : {
+      "executable" : "/usr/bin/swiftc",
+      "importPath" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/elijah-williams/www/Evalulator/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/elijah-williams/www/Evalulator/my.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/elijah-williams/www/Evalulator/old.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/elijah-williams/www/Evalulator/tokenExample.swift"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Simple",
+      "moduleOutputPath" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule",
+      "objects" : [
+        "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o",
+        "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/my.swift.o",
+        "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/old.swift.o",
+        "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/tokenExample.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-enable-bare-slash-regex",
+        "-Xcc",
+        "-fPIC"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/my.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/old.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/tokenExample.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/home/elijah-williams/www/Evalulator/main.swift",
+        "/home/elijah-williams/www/Evalulator/my.swift",
+        "/home/elijah-williams/www/Evalulator/old.swift",
+        "/home/elijah-williams/www/Evalulator/tokenExample.swift"
+      ],
+      "tempsPath" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Simple" : [
+      "/usr/bin/swiftc",
+      "-module-name",
+      "Simple",
+      "-incremental",
+      "-c",
+      "/home/elijah-williams/www/Evalulator/main.swift",
+      "/home/elijah-williams/www/Evalulator/my.swift",
+      "/home/elijah-williams/www/Evalulator/old.swift",
+      "/home/elijah-williams/www/Evalulator/tokenExample.swift",
+      "-I",
+      "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-g",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-enable-bare-slash-regex",
+      "-Xcc",
+      "-fPIC",
+      "-driver-use-frontend-path",
+      "/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Simple" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  }
+}
