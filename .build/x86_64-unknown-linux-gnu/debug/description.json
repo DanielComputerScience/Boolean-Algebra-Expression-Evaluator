@@ -23,6 +23,10 @@
       "inputs" : [
         {
           "kind" : "file",
+          "name" : "/home/elijah-williams/www/Evalulator/error.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/home/elijah-williams/www/Evalulator/main.swift"
         },
         {
@@ -35,6 +39,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/home/elijah-williams/www/Evalulator/test/test.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/home/elijah-williams/www/Evalulator/tokenExample.swift"
         }
       ],
@@ -42,9 +50,11 @@
       "moduleName" : "Simple",
       "moduleOutputPath" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule",
       "objects" : [
+        "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/error.swift.o",
         "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o",
         "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/my.swift.o",
         "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/old.swift.o",
+        "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/test/test.swift.o",
         "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/tokenExample.swift.o"
       ],
       "otherArguments" : [
@@ -71,6 +81,10 @@
       "outputs" : [
         {
           "kind" : "file",
+          "name" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/error.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o"
         },
         {
@@ -83,6 +97,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/test/test.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/tokenExample.swift.o"
         },
         {
@@ -91,9 +109,11 @@
         }
       ],
       "sources" : [
+        "/home/elijah-williams/www/Evalulator/error.swift",
         "/home/elijah-williams/www/Evalulator/main.swift",
         "/home/elijah-williams/www/Evalulator/my.swift",
         "/home/elijah-williams/www/Evalulator/old.swift",
+        "/home/elijah-williams/www/Evalulator/test/test.swift",
         "/home/elijah-williams/www/Evalulator/tokenExample.swift"
       ],
       "tempsPath" : "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build",
@@ -110,9 +130,11 @@
       "Simple",
       "-incremental",
       "-c",
+      "/home/elijah-williams/www/Evalulator/error.swift",
       "/home/elijah-williams/www/Evalulator/main.swift",
       "/home/elijah-williams/www/Evalulator/my.swift",
       "/home/elijah-williams/www/Evalulator/old.swift",
+      "/home/elijah-williams/www/Evalulator/test/test.swift",
       "/home/elijah-williams/www/Evalulator/tokenExample.swift",
       "-I",
       "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug",
