@@ -1,0 +1,27 @@
+// swift-tools-version:5.2                                                                                                                                                       
+  2 // The swift-tools-version declares the minimum version of Swift required to build this package.                                                                                 
+  3                                                                                                                                                                                  
+  4 import PackageDescription                                                                                                                                                        
+  5                                                                                                                                                                                  
+  6 let package = Package(                                                                                                                                                           
+  7   name: "Simple",                                                                                                                                                                
+  8     products: [                                                                                                                                                                  
+  9         // Products define the executables and libraries produced by a package, and make them visible to other packages.                                                         
+ 10         .executable(                                                                                                                                                             
+ 11             name: "Simple",                                                                                                                                                      
+ 12             targets: ["Simple"]),                                                                                                                                                
+ 13     ],                                                                                                                                                                           
+ 14     dependencies: [                                                                                                                                                              
+ 15         // Dependencies declare other packages that this package depends on.                                                                                                     
+ 16         // .package(url: /* package url */, from: "1.0.0"),                                                                                                                      
+ 17     ],                                                                                                                                                                           
+ 18     targets: [                                                                                                                                                                   
+ 19         // Targets are the basic building blocks of a package. A target can define a module or a test suite.                                                                     
+ 20         // Targets can depend on other targets in this package, and on products in packages which this package depends on.                                                       
+ 21         .target(                                                                                                                                                                 
+ 22             name: "Simple",                                                                                                                                                      
+ 23             dependencies: [],                                                                                                                                                    
+ 24             path: ".")                                                                                                                                                           
+ 25     ]                                                                                                                                                                            
+ 26 )                                                                                                                                                                                
+                                

@@ -2,12 +2,6 @@
   "": {
     "swift-dependencies": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/master.swiftdeps"
   },
-  "/home/elijah-williams/www/Evalulator/error.swift": {
-    "dependencies": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/error.d",
-    "object": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/error.swift.o",
-    "swiftmodule": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/error~partial.swiftmodule",
-    "swift-dependencies": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/error.swiftdeps"
-  },
   "/home/elijah-williams/www/Evalulator/main.swift": {
     "dependencies": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.d",
     "object": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o",
@@ -25,12 +19,6 @@
     "object": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/old.swift.o",
     "swiftmodule": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/old~partial.swiftmodule",
     "swift-dependencies": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/old.swiftdeps"
-  },
-  "/home/elijah-williams/www/Evalulator/test/test.swift": {
-    "dependencies": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/test/test.d",
-    "object": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/test/test.swift.o",
-    "swiftmodule": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/test/test~partial.swiftmodule",
-    "swift-dependencies": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/test/test.swiftdeps"
   },
   "/home/elijah-williams/www/Evalulator/tokenExample.swift": {
     "dependencies": "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/Simple.build/tokenExample.d",
