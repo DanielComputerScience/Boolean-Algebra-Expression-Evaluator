@@ -64,7 +64,6 @@
         "-module-cache-path",
         "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
         "-parseable-output",
-        "-color-diagnostics",
         "-enable-bare-slash-regex",
         "-Xcc",
         "-fPIC"
@@ -133,7 +132,6 @@
       "-module-cache-path",
       "/home/elijah-williams/www/Evalulator/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
       "-parseable-output",
-      "-color-diagnostics",
       "-enable-bare-slash-regex",
       "-Xcc",
       "-fPIC",
